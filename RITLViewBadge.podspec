@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
 
   s.license       = { :type => "MIT", :file => "LICENSE" }
   s.authors       = { "YueXiaoWen" => "yuexiaowen108@gmail.com" }
-  s.platform      = :ios, "8.0"
-  s.source        = { :git => "git@github.com:RITL/RITLViewBadge.git", :tag => "#{s.version}" }
+  s.platform      = :ios, "6.0"
+  s.source        = { :git => "https://github.com/RITL/RITLViewBadge.git", :tag => "#{s.version}" }
   s.source_files  = "RITLViewBadge"
   s.frameworks    = "Foundation","UIKit"
   s.requires_arc  = true
